@@ -1,0 +1,68 @@
+/*font-family: 'Creepster', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+
+header {
+	position : relative;
+	width : 100%;
+	height : 320px;
+	background-color : #ffff80;
+	border: 1px dotted black;
+	display: block;
+}
+
+header img {
+	width : 200px;
+	height : 250px;
+	opacity : .8;
+	border : 15px solid black;
+	border-radius : 5%;
+	float : right;
+	margin: 15px 15px 0 15px;
+}
+
+header h1 {
+	position : absolute;
+	top: -60px;
+	right: 270px;
+	font-family: 'Creepster', cursive;
+    font-size : 100px;
+    color : #ff0000;
+}
+
+header p span {
+	color : orange;
+}
+
+header p{
+	position: absolute;
+	left: 30px;
+	top: 90px;
+	font-family: 'Rye', cursive;
+	font-size: 80px;
+	color: #ee0000;
+}
+
+article img {
+	width : 120px;
+	height: 100px;
+	padding : 20px 20px;
+}
+
+article p {
+	font-family : 'Roboto', sans-serif;
+	font-size : 12pt;
+	padding: 5px 5px;
+}
+
+footer h3 {
+	font-family : 'Great Vibes', cursive;
+	font-size : 55px;
+	font-weight : 700;
+	color : darkred;
+	text-align : center;
+	background-color : gray;
+	padding : 15px 0 15px 0;
+}
